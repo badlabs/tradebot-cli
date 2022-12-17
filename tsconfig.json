@@ -4,13 +4,13 @@
     "lib": [
       "es2021", "dom"
     ],
-    "outDir": "../bin",
+    "outDir": "bin",
     "removeComments": false,
     "target": "ES6",
     "module": "CommonJS",
-    "declaration": true,
+    "declaration": false,
     // Module resolution
-    "baseUrl": "../",
+    "baseUrl": ".",
     "esModuleInterop": true,
     "moduleResolution": "node",
     "paths": {},
@@ -34,6 +34,8 @@
     // Decorators
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+
+    // React
     "jsx": "react"
   },
   "exclude": [

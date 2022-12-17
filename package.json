@@ -1,4 +1,35 @@
 {
+  "name": "@badlabs/tradebot-core",
+  "version": "0.0.1",
+  "description": "CLI for interaction with tradebot (@badlabs/tradebot-core)",
+  "scripts": {
+    "build": "tsc",
+    "cli": "ts-node src/main.tsx"
+  },
+  "bin": {
+    "tbot": "./bin/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badlabs/tradebot-cli.git"
+  },
+  "homepage": "https://github.com/badlabs/tradebot-cli#readme",
+  "bugs": {
+    "url": "https://github.com/badlabs/tradebot-cli/issues"
+  },
+  "keywords": [
+    "robotics",
+    "backend",
+    "typescript",
+    "server",
+    "cli"
+  ],
+  "author": {
+    "name": "Nikolay Dorofeev",
+    "email": "d.orich@yandex.com",
+    "url": "https://d0rich.github.io/"
+  },
+  "license": "Apache-2.0",
   "dependencies": {
     "axios": "^1.2.1",
     "ink": "^3.2.0",
