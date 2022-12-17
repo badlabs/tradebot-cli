@@ -31,6 +31,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "@badlabs/tradebot-core": "^0.2.0",
     "axios": "^1.2.1",
     "ink": "^3.2.0",
     "ink-big-text": "^1.2.0",
@@ -42,6 +43,7 @@
   "devDependencies": {
     "@types/ink-big-text": "^1.2.1",
     "@types/ink-gradient": "^2.0.1",
+    "@types/node": "^18.11.16",
     "@types/react": "^18.0.26"
   }
 }

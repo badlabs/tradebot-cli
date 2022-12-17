@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react"
 import {BotConfig} from "../models"
-import {SocketLogs, initWSClient} from "../../src"
+import {SocketLogs, initWSClient} from "@badlabs/tradebot-core"
 import {Newline, Text} from "ink";
 import "websocket-polyfill";
 

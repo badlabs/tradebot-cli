@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {BotConfig} from "../models";
-import { TRPCRouterHTTP } from "../../src";
+import { TRPCRouterHTTP } from "@badlabs/tradebot-core";
 import {TRPCClientError, TRPCLink, createTRPCProxyClient} from '@trpc/client';
 import { observable } from '@trpc/server/observable';
 import axios from "axios";

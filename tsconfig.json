@@ -24,6 +24,7 @@
     "allowUnreachableCode": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
+    "skipLibCheck": true,
 
     // Linter Checks
     "noImplicitReturns": true,
