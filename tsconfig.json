@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    // project options
+    "lib": [
+      "es2021", "dom"
+    ],
+    "outDir": "../bin",
+    "removeComments": false,
+    "target": "ES6",
+    "module": "CommonJS",
+    "declaration": true,
+    // Module resolution
+    "baseUrl": "../",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "paths": {},
+
+    // Source Map
+    "sourceMap": true,
+    "sourceRoot": "/",
+
+    // Strict Checks
+    "alwaysStrict": true,
+    "allowUnreachableCode": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+
+    // Linter Checks
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    // Decorators
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "jsx": "react"
+  },
+  "exclude": [
+    "node_modules/**/*"
+  ]
+}
